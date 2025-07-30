@@ -39,7 +39,7 @@ from s3vectors.utils.config import get_region
 
 # Configure logging
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.ERROR,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
         logging.StreamHandler(sys.stderr),
