@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "s3vector": {
+      "command": "uv",
+      "args": [
+        "run",
+        "s3-vectors-mcp"
+      ],
+      "env": {
+        "S3VECTORS_BUCKET_NAME": "",
+        "S3VECTORS_INDEX_NAME": "",
+        "S3VECTORS_REGION": "us-east-1",
+        "S3VECTORS_MODEL_ID": "amazon.titan-embed-text-v2:0",
+        "S3VECTORS_DIMENSIONS": "1024"
+      },
+      "timeout": 120000,
+      "disabled": false
+    }
+  }
+}
